@@ -8,58 +8,58 @@ ClubOS는 대학 동아리의 내부 운영 관리에 특화된 플랫폼입니�
 ## 🎯 해결하고자 하는 문제
 ### 현재 동아리 운영의 문제점
 
-파편화된 도구 사용: Google Sheets, Slack, 카카오톡 등 여러 플랫폼에 흩어진 데이터
-과도한 행정 부담: 수동으로 처리해야 하는 회원 관리, 행사 참여 집계
-데이터 기반 의사결정 부재: 체계적이지 않은 활동 데이터로 인한 직감 의존적 운영
+- 파편화된 도구 사용: Google Sheets, Slack, 카카오톡 등 여러 플랫폼에 흩어진 데이터
+- 과도한 행정 부담: 수동으로 처리해야 하는 회원 관리, 행사 참여 집계
+- 데이터 기반 의사결정 부재: 체계적이지 않은 활동 데이터로 인한 직감 의존적 운영
 
 ## ClubOS의 솔루션
 
-통합 관리: 모든 회원 및 활동 데이터를 한 곳에서 관리
-자동화: Google Sheets, Slack과의 연동을 통한 업무 자동화
-데이터 기반 의사결정: 시각적 대시보드를 통한 동아리 운영 인사이트 제공
+- 통합 관리: 모든 회원 및 활동 데이터를 한 곳에서 관리
+- 자동화: Google Sheets, Slack과의 연동을 통한 업무 자동화
+- 데이터 기반 의사결정: 시각적 대시보드를 통한 동아리 운영 인사이트 제공
 
 ## ✨ 주요 기능
 ### 🔐 역할 기반 접근 제어 (RBAC)
 
-동아리 회장 (Admin): 전체 시스템 관리, 운영진 권한 부여
-운영진 (Executive): 행사 관리, 회원 조회, 분석 대시보드 접근
-일반 회원 (Member): 개인 프로필 관리, 공개 행사 조회
+- 동아리 회장 (Admin): 전체 시스템 관리, 운영진 권한 부여
+- 운영진 (Executive): 행사 관리, 회원 조회, 분석 대시보드 접근
+- 일반 회원 (Member): 개인 프로필 관리, 공개 행사 조회
 
 ### 📊 Google Sheets 연동
 
-회원 지원서 데이터 자동 동기화
-원클릭 지원자 승인/거절 시스템
-중앙화된 회원 데이터베이스 구축
+- 회원 지원서 데이터 자동 동기화
+- 원클릭 지원자 승인/거절 시스템
+- 중앙화된 회원 데이터베이스 구축
 
 ### 🔔 Slack 연동
 
-행사 공지 메시지와 ClubOS 연결
-이모지 반응을 통한 실시간 참여 의사 수집
-수동 집계 없는 자동화된 참여 현황 파악
+- 행사 공지 메시지와 ClubOS 연결
+- 이모지 반응을 통한 실시간 참여 의사 수집
+- 수동 집계 없는 자동화된 참여 현황 파악
 
 ### 📈 분석 대시보드
 
-행사 참여율 추이: 시간에 따른 참여도 변화 시각화
-카테고리별 인기도: 학술/소셜/정기총회 등 행사 유형별 분석
-회원 활동 순위: 가장 활발한 회원 식별
-실시간 KPI: 예정 행사 관심도, 전체 참여율 등
+- 행사 참여율 추이: 시간에 따른 참여도 변화 시각화
+- 카테고리별 인기도: 학술/소셜/정기총회 등 행사 유형별 분석
+- 회원 활동 순위: 가장 활발한 회원 식별
+- 실시간 KPI: 예정 행사 관심도, 전체 참여율 등
 
 ## 🛠️ 기술 스택
 ### Backend
 
-Framework: FastAPI (Python)
-Database: PostgreSQL (Supabase)
-Authentication: JWT 기반 인증
+- Framework: FastAPI (Python)
+- Database: PostgreSQL (Supabase)
+- Authentication: JWT 기반 인증
 
 ### Frontend
 
-Framework: React / Vue.js
-Styling: Tailwind CSS
-Charts: Chart.js
-State Management: Context API / Vuex
+- Framework: React / Vue.js
+- Styling: Tailwind CSS
+- Charts: Chart.js
+- State Management: Context API / Vuex
 
 ### External APIs
 
-Google Sheets API: 회원 데이터 동기화
-Slack Events API: 실시간 반응 수집
-OAuth 2.0: 안전한 외부 서비스 연동
+- Google Sheets API: 회원 데이터 동기화
+- Slack Events API: 실시간 반응 수집
+- OAuth 2.0: 안전한 외부 서비스 연동
